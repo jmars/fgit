@@ -9,7 +9,11 @@ var mkdirp = co(function *(fs, p) {
 	if (p[p.length-1] === '/') p = p.slice(0, p.length-1);
 	if (!(yield exists)) {
 		yield thunkify(mkdirp)(fs, path.dirname(p))
-		yield mkdir(p);
+		try {
+			yield mkdir(p);
+		} catch (err) {
+			if (err.code !== 'EEXIST') throw err
+		}
 	}
 });
 
