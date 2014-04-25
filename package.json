@@ -1,6 +1,6 @@
 {
   "name": "fgit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Git in Javascript",
   "main": "index.js",
   "scripts": {
