@@ -20,13 +20,13 @@
     "sparkler": "^0.1.6",
     "rustyscript": "git://github.com/jmars/rustyscript",
     "algebraic-data-traits": "git://github.com/jmars/algebraic-data-traits",
-    "sweet.js": "^0.5.0"
+    "sweet.js": "^0.5.0",
+    "regenerator": "^0.4.6"
   },
   "dependencies": {
     "co": "^3.0.5",
     "adt": "^0.7.2",
     "light-traits": "^0.2.0",
-    "thunkify": "^2.1.1",
-    "regenerator": "^0.4.6"
+    "thunkify": "^2.1.1"
   }
 }
