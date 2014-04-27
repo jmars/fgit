@@ -13,8 +13,7 @@ import Person from './types/person'
 import mkdirp from './util/mkdirp'
 
 newtype Repo {
-	fs: Object,
-	name: String
+	fs: Object
 }
 
 impl Repo {
